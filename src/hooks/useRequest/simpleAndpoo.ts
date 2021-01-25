@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 // 自己的
 import * as React from 'react';
 export type Request<K, O> = (key: K) => Promise<O>;
@@ -14,10 +15,10 @@ export function useRequest<K, O = void, E = Error>(
     task: Request<K, O>,
     params: K
   ): RequestResult<O, E> {
-    const [state, setState] = React.useState();
+    const state = React.useRef();
     React.useEffect(async () => {
       const data = task(params);
-      setState(data);
+      state.current = data;
     },[]);
     return state;
   }
