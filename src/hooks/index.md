@@ -5,4 +5,8 @@
 
 ## useRef
 
-可以用来存取更新前的原始值
+可以用来存取更新前的原始值,结合useEffect
+
+## useTransitionState
+
+- [ ] 使用入参来进行设置的value与原始value的比较，入参可以跨周期进行储存？
