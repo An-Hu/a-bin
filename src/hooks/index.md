@@ -10,3 +10,5 @@
 ## useTransitionState
 
 - [ ] 使用入参来进行设置的value与原始value的比较，入参可以跨周期进行储存？
+
+## debounce 防抖动
