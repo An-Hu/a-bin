@@ -1,0 +1,55 @@
+{
+    "evaluationFeasibility": "1",
+    "evaluationRemark": "1111",
+    "devices": [
+        {
+            "deviceAmount": 33,
+            "deviceImgUrl": "",
+            "deviceSpecification": "pariatur veniam deserunt in et",
+            "deviceType": 1,
+            "operationType": 1,
+            "devicesDetail": [
+                {
+                    "vendorName": "111",
+                    "vendorId": 0,
+                    "deviceModel": "111",
+                    "vendorPn": "111",
+                    "deviceRemark": "111",
+                    "deviceImgUrl": ""
+                }
+            ],
+            "index": 0
+        },
+        {
+            "deviceAmount": 45,
+            "deviceImgUrl": "",
+            "deviceSpecification": "pariatur veniam deserunt in et",
+            "deviceType": 16,
+            "operationType": 2,
+            "devicesDetail": [
+                {
+                    "vendorName": "222",
+                    "vendorId": 0,
+                    "deviceModel": "222",
+                    "vendorPn": "222",
+                    "deviceRemark": "222",
+                    "deviceImgUrl": ""
+                }
+            ],
+            "index": 1
+        }
+    ],
+    "parts": [
+        {
+            "operationType": 1,
+            "partAmount": 0,
+            "partImgUrl": "",
+            "partType": "1002",
+            "partTypeId": 1002,
+            "vendorId": 0,
+            "vendorName": "2"
+        }
+    ],
+    "sopUrl": "http://bd.bcebos.com/v1/ump-file-private/asedm/8a17acdd220d4891be40a78abb75241a?responseContentDisposition=attachment;filename=/tmp/phpwZdrxK&authorization=bce-auth-v1/f53711d5eaf84b3cbc515893ff3204d9/2021-01-21T11:21:57Z/1800//297455bfd265ae5925090e9890d257bb9921d6ff744cf687bc1a1cf16911aa93",
+    "sopFileKey": "8a17acdd220d4891be40a78abb75241a"
+}
