@@ -5,6 +5,7 @@ import RequestDemo from "./hooks/useRequest/main";
 import 'antd/dist/antd.css';
 import { MethodDemo } from "./hooks/useMethods/main";
 import { DerivedState } from "./hooks/useDerivedState/main";
+import { LazyValue } from "./hooks/useIntendedLazyValue/main";
 interface mapItem{
   title:string;
   node: any;
@@ -21,6 +22,10 @@ const map:mapItem[] = [
   {
     title:'useDerived',
     node:(<DerivedState></DerivedState>)
+  },
+  {
+    title:'LazyValue',
+    node:(<LazyValue></LazyValue>)
   }
 ]
 

@@ -1,9 +1,4 @@
-/*
- * @data: now
- */
-/*
- * @data: now
- */
+
 import * as React from "react";
 export type Request<K, O> = (key: K) => Promise<O>;
 export interface RequestResult<O = void, E = Error> {

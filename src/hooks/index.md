@@ -14,3 +14,5 @@
 ## debounce 防抖动
 
 ## useMethods 将对数据的各种操作与数据进行绑定
+
+## useInputValue 绑定input 的值
