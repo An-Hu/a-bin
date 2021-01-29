@@ -1,0 +1,14 @@
+{
+  "name": "a-bin",
+  "version": "1.0.1",
+  "description": "no",
+  "main": "index.js",
+  "repository": "https://github.com/An-Hu/a-bin.git",
+  "author": "huqizhi && rong",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.1",
+    "vue": "^2.6.12"
+  }
+}
