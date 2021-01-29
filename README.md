@@ -19,3 +19,12 @@
 - f-vue: ()
 - f-react: yarn && yarn start
 - node: todo
+
+## git 提交代码
+
+git add .
+git commit -m "---"
+git pull (看一下有没有冲突) -解决冲突
+    git add .
+    git commit -m "解决冲突"
+git push origin
