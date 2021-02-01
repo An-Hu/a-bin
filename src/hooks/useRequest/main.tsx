@@ -23,6 +23,7 @@ const aa = useRef<any>()
         setData(parseInt((Math.random()*100).toString(),10))
        }, 1000)
        aa.current = a;
+    //    ????这里还是有问题
     //    return clearInterval(a)
    },[])
 
@@ -48,6 +49,7 @@ const promise = (key:any) => {
       <div>这是现在的数据：{localData}</div>
       <div>这是服务器现在的数据(不自动刷新)：{data}</div>
       <div>这是服务器现在的数据（进行自动刷新）：{dataNow}</div>
+      <div>params改变进行自动刷新：{dataNow}</div>
       {/* <div>这是另一种表现的数据（进行自动刷新）：{dataOther}</div> */}
       <button onClick={refresh}>点击刷新</button>
       <button onClick={()=>clearInterval(aa.current)}>点击停止</button>
