@@ -1,5 +1,5 @@
 import { Button, Menu } from "antd";
-import React from "react";
+import React, { useMemo } from "react";
 import c from "./index.less";
 import {
     AppstoreOutlined,
@@ -12,6 +12,7 @@ import {
 } from "@ant-design/icons";
 import { iconConf, MenuConf } from "./MenuConfigures";
 import { useHistory } from "react-router-dom";
+import { usePhone } from "@/commpents/onTelephone";
 /*
  * @author: huqizhi
  */
@@ -21,9 +22,12 @@ export const Menus: React.FC = () => {
     const onClick = React.useCallback(pash => {
         return () => history.push(pash);
     }, [history]);
+    const isPhone = useMemo(()=>{
+        return usePhone()
+    },[])
     return (
         <>
-            <Menu className={c("menu")} mode="inline" theme="light">
+            <Menu className={c("menu")} mode={isPhone?"vertical":"inline"} theme="light">
                 <Menu.Item className={c.title} disabled></Menu.Item>
 
                 {MenuConf.map((r) => {

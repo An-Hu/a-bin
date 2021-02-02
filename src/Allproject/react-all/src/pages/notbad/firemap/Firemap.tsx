@@ -1,4 +1,3 @@
-import { ColorPicker } from "@/commpents/colorPicker";
 import { PageHeader, Spin } from "antd";
 import * as React from "react";
 import { withBoundary } from "react-suspense-boundary";
@@ -23,10 +22,10 @@ const FireMapPre: React.FC = () => {
         <>
             <PageHeader
                 className="site-page-header"
-                title="some mind"
+                title="热力图"
                 subTitle="huhu"
             >
-                <ColorPicker></ColorPicker>
+                
                 <MainRender></MainRender>
             </PageHeader>
         </>
