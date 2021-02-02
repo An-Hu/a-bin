@@ -2,41 +2,34 @@
   "name": "allint",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "antd": "^4.11.2",
-    "history": "^5.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "typescript": "^4.1.3",
-    "web-vitals": "^0.2.4"
-  },
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "skr dev",
+    "build": "skr build --clean"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "antd": "^4.9.2",
+    "history": "^5.0.0",
+    "immer": "^8.0.0",
+    "path-browserify": "^1.0.1",
+    "react": "^16.14.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^16.14.0",
+    "react-omni-link": "^2.1.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-suspense-boundary": "^1.1.2",
+    "reset-css": "^5.0.1",
+    "use-immer": "0.4.2"
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.7"
+    "@reskript/cli": "^1.0.0-beta.9",
+    "@reskript/cli-build": "^1.0.0-beta.19",
+    "@reskript/cli-dev": "^1.0.0-beta.18",
+    "@types/react-color": "^3.0.4",
+    "@types/react-router-dom": "^5.1.7",
+    "typescript": "^4.1.2",
+    "webpack": "^5.10.0"
   }
 }
